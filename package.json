@@ -1,0 +1,35 @@
+{
+  "name": "hi5-player",
+  "version": "1.0.0",
+  "description": "A command line music player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KinoAR/hi5-player.git"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "hi5",
+    "mp3",
+    "mp4",
+    "flac",
+    "ffmpeg"
+  ],
+  "author": "Kino Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KinoAR/hi5-player/issues"
+  },
+  "homepage": "https://github.com/KinoAR/hi5-player#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "figlet": "^1.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "inquirer": "^5.2.0",
+    "rambda": "^1.1.0"
+  }
+}
